@@ -1,7 +1,7 @@
 const express = require("express");
 // const bodyParser = require(body - parser);
 
-const PORT = process.env.PORT || 3000;
+
 
 const sponsors = [
   {
@@ -183,6 +183,12 @@ app.get("/support", function (req, res) {
     res.render("support.ejs");
   });
 
-app.listen(PORT, function (req, res) {
-  console.log("Server is working at port ${PORT}");
+
+let port = process.env.PORT;
+if(port == null || port ==""){
+  port = 3000;
+}
+
+app.listen(port, function (req, res) {
+  console.log("Server is working");
 });
