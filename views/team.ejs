@@ -1,0 +1,31 @@
+<%- include('header.ejs');%>
+
+
+
+<h1 class="team-page-text" style="padding-left: 10%; padding-top: 5%;">Our Team Members:</h1>
+
+<div class="sponsors row ">
+
+    <%teamMembers.forEach(function(member){%>
+        <div class="col-6 col-lg-3 col-md-4 col-sm-6 team-page-text">
+            <img class="team-member-image" src="<%= member.img %>" alt= "<%= member.name %>"">
+            <br>
+            <br>
+            <h4 ><%=member.name%></h4>
+            <p ><b><%=member.position%></b></p>
+            <!-- <h4><%=member.position%></h4> -->
+            <p ><%=member.class%></p>
+    
+            <div>
+                <a href=<%=member.linkedin%> class="team-member-social-media fa-brands fa-linkedin fa-lg"></a>
+                <a href=<%=member.insta%> class="team-member-social-media fa-brands fa-instagram fa-lg"></a>
+            </div>
+            
+            
+        </div>
+    <%})%>
+
+</div>
+
+
+<%- include('footer.ejs');%>

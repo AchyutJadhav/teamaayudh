@@ -1,0 +1,22 @@
+.support-page {
+  background-image:url("../Images/low_opacity.jpeg") ;
+  /* background-color:rgb(0,0,0);
+  opacity:0.6; */
+  background-repeat: no-repeat;
+  background-size: 1550px 1050px;
+  height: 1050px;
+  background-position: center;
+} 
+
+.sponsor-us-page-block{
+  padding-top: 5% ;
+  padding-bottom: 0;
+  padding-left: 6%;
+}
+.benefits{
+  color: #fff;
+}
+  
+@media screen and (max-width:800px){
+  
+}

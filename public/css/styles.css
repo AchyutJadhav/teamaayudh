@@ -1,0 +1,169 @@
+.navbar{
+    padding: 0 10%;
+    background-color: #1A192E;
+    
+}
+
+
+.footer-image {
+    padding: 2%;
+    padding-top: 0%;
+    color: #fff;
+    text-decoration: none;
+}
+#footer {
+    text-align: center;
+    background-color:#1A192E;
+    padding: 2%;
+}
+
+#title {
+    background-color: #1A192E;
+
+    padding: 3%;
+    padding-bottom: 7%;
+}
+
+.shaurya-img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.text{
+    color: #E8E8E8;
+}
+.text:hover{
+    color:green;
+}
+.greeting-text-div{
+    margin: auto; 
+    width: 95%; 
+    padding: 10px;
+    text-align: center;
+}
+
+
+#aayudh-text{
+    padding: 6%;
+    padding-top: 5%;
+    font-family: 'Playfair Display', serif;
+    font-weight:  light;
+    color: #fff;
+}
+
+
+#about{
+    padding: 5%;
+    padding-top: 0;
+}
+
+.carousel-img{
+    width: 100%;
+    border-radius: 15px;
+    background-color: #1A192E;
+}
+
+.carousel-img1{
+    width: 100%;
+    border-radius: 15px;
+    background-color: #1A192E;
+}
+
+.carousel{
+    padding: 7%;
+    text-align: center;
+    background-color: #1A192E;
+}
+
+.sponsors{
+    padding: 5%;
+    text-align: center;
+}
+
+.sponsors-logo{
+    padding-top: 20%;
+    padding: 5%;
+    width:100%;
+}
+
+
+.card-column{
+    padding-top: 5%;
+}
+
+.column{
+    padding-top: 5%;
+}
+
+.team-logo{
+    padding: 0;
+    width: 30%;
+}
+
+.about_page_section{
+    padding: 2% 0;
+}
+
+.about_tifan{
+    padding:5% 10%;
+    /* padding-bottom: 0; */
+}
+
+.faculty-adviser{
+    text-align: center;
+}
+
+.faculty-img{
+    width: 50%;
+    border-radius: 100%;
+    margin: 5%;
+}
+
+
+.team-member-social-media{
+    padding:10px;
+    padding-bottom: 10% ;
+    color: #000;
+}
+
+.team-member-image{
+    width: 80%;
+}
+.team-logo-navbar{
+    width: 110px;     
+}
+
+
+.team-page-text{
+    color:#1A192E;
+}
+
+
+@media only screen and (min-width: 800px) {
+    .carousel-img{
+        text-align: center;
+        width: 700px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    *{
+        font-size: small;
+    }
+    .team-logo-navbar{
+        width: 80px;
+    }
+
+    #aayudh-text{
+        font-size: x-large;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .balaji-text-message{
+        margin: auto;
+        width: 50%;
+        padding: 10px;
+    }
+  }
