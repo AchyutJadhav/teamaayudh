@@ -159,6 +159,15 @@ const teamMembers = [
         linkedin:"https://www.linkedin.com/in/savata-tilekar-06395617b",
         insta:"https://www.instagram.com/rutik_s_tilekar/"
     },
+    {
+      name:"Savata Tilekar",
+      img:"Images/team members/somesh joshi.png",
+      position: "Somesh Joshi",
+      class:"SE Mechanical",
+
+      linkedin:"https://www.linkedin.com/in/savata-tilekar-06395617b",
+      insta:"https://www.instagram.com/rutik_s_tilekar/"
+  },
 ]
 
 const app = express();
